@@ -9,6 +9,12 @@
 ### printer.cfg
 
 ```
+[stepper_z]
+microsteps: 64
+
+[stepper_z1]
+microsteps: 64
+
 [tmc2240 stepper_y]
 interpolate:False
 
