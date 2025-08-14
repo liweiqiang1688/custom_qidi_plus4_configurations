@@ -1,4 +1,4 @@
-# Customized configurations/codes for my QIDI Plus 4 3d printer
+# Customizations for my QIDI Plus 4 3d printer
 
 ⚠️ **Do not follow these steps if on firmware earlier than v1.7.1 !**
 
