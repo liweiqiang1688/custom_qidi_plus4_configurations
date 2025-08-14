@@ -36,7 +36,7 @@ probe_count:11,11
 
 ```
 
-#### Notes
+##### Notes
 
 1. **interpolate** is set to False for all steppers.
 2. **stealthchop_threshold** is disabled for z motors, for better torques, with the expense of higher noise.
@@ -85,8 +85,10 @@ max_temp: 100
 #fan_speed: 1.0
 #heater:chamber
 #stepper:stepper_x,stepper_y
-
 ```
+
+##### Notes
+1. The above configuration is copied from https://github.com/qidi-community/config-xplus4/blob/main/board-fan-cooling.cfg
 
 ### box?.cfg
 
@@ -99,7 +101,7 @@ heater_temp: 40
 
 ```
 
-#### Notes
+##### Notes
 
 1. heater_temp is changed to 40 degrees up from 35. The default setting will make QIDI box heater fan running all the time.
 
