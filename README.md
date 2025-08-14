@@ -76,7 +76,7 @@ pid_deriv_time: 5.0
 pid_Kp: 5
 pid_Ki: 2
 pid_Kd: 5
-target_temp: 55
+target_temp: 50
 min_speed: 0
 max_speed: 1.0
 min_temp: 0
