@@ -110,7 +110,7 @@ heater_temp: 40
 
 ##### Notes
 
-1. heater_temp is changed to 40 degrees up from 35. The default setting will make QIDI box heater fan running all the time.
+1. **heater_temp** is changed to 40 degrees up from 35. The default setting will make QIDI box heater fan running all the time.
 
 ## Code changes
 
