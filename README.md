@@ -38,7 +38,7 @@ speed:2.5
 
 [bed_mesh]
 probe_count:11,11
-
+speed:300
 
 ```
 
@@ -48,8 +48,9 @@ probe_count:11,11
 2. **stealthchop_threshold** is disabled for z motors, for better torques, with the expense of higher noise.
 3. **max_power** for the chamber heater is set to 0.6, cause I am in China, the electricity is 220 voltage.
 4. **heat_with_heater_bed_tem_add** is set to **15**, down from 25. The 1.7.1 version firmware introduced this new config. The chamber heater will not be enabled unless the bed reaches the target chamber temperature + heat_with_heater_bed_tem_add. This makes the chamber warming process too slow. I just lowered down this value, and enabled the chamber heater with half of its max_power, to speed up the chamber warming process.
-5. **speed** is changed down to **2.5** from 5, to reduce the probe speed, to get more precise z probes.
-6. **probe_count** is changed from 9,9 to 11,11, to get better bed mesh, with the expense of longer probe process.
+5. **speed** in the smart_effect section is changed down to **2.5** from 5, to reduce the probe speed, to get more precise z probes.
+7. **probe_count** is changed from 9,9 to 11,11, to get better bed mesh, with the expense of longer probe process.
+8. **speed** in the bed_mesh section is changed to 300, to run faster between different probe points.
 
 ```
 [controller_fan board_fan]
