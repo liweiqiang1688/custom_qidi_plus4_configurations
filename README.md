@@ -47,8 +47,8 @@ probe_count:9,9
 1. **interpolate** is set to False for all steppers.
 2. **stealthchop_threshold** is disabled for z motors, for better torque and precision, with the expense of higher noise. I wish QIDI could switch to TMC2240 for all X,Y,Z motors. 
 3. **max_power** for the chamber heater is set to 0.6, cause I am in China, the electricity is 220 voltage.
-4. **speed** in the smart_effect section is changed down to **2.5** from 5, to reduce the probe speed, to get more precise z probes.
-5. **speed** in the bed_mesh section is changed to 300, to run faster between different probe points.
+4. **smart_effect.speed** in the section is changed down to **2.5** from 5, to reduce the probe speed, to get more precise z probes.
+5. **smart_effect.lift_speed=20** , **bed_mesh.speed=300**, and **bed_mesh.horizontal_move_z=5** for faster auto bed leveling.
 
 ```
 [controller_fan board_fan]
