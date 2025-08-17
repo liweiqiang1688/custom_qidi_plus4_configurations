@@ -140,7 +140,7 @@ The change enables the chamber heater to work together with the bed heater to sp
 
 
 ## Other Hardware Mods
-1. [Rear chamber cover] (https://www.printables.com/model/1040774-qidi-plus-4-rear-chamber-cover)
+1. [Rear chamber cover](https://www.printables.com/model/1040774-qidi-plus-4-rear-chamber-cover)
 2. [Filament waste container](https://www.printables.com/model/1023520-qidi-plus-4-filament-waste-container)
 3. [Mainboard fan mod](https://www.printables.com/model/1146502-qidi-plus-4-hex-mainboard-cover-for-80mm-fan-with)
 4. [Filtration Mod](https://www.printables.com/model/1022271-qidi-plus-4-filtration-system)
