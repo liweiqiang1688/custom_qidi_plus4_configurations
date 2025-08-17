@@ -38,7 +38,8 @@ speed:2.5
 
 [bed_mesh]
 speed:300
-
+horizontal_move_z:5
+probe_count:11,11
 ```
 
 ##### Notes
