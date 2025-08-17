@@ -34,11 +34,12 @@ max_power:0.6
 
 [smart_effector]
 speed:2.5
+lift_speed:20
 
 [bed_mesh]
 speed:300
 horizontal_move_z:5
-probe_count:11,11
+probe_count:9,9
 ```
 
 ##### Notes
@@ -93,6 +94,32 @@ max_temp: 100
 
 ##### Notes
 1. The above configuration is copied from https://github.com/qidi-community/config-xplus4/blob/main/board-fan-cooling.cfg
+
+
+```
+[screws_tilt_adjust]
+screw1:20,20
+screw1_name: Front left
+screw2: 280,20
+screw2_name: Front right
+screw3: 280,280
+screw3_name: Back right
+screw4: 20,280
+screw4_name: Back left
+screw_thread: CW-M4
+
+[gcode_macro SCREWS_TILT_CALCULATE]
+rename_existing: _SCREWS_TILT_CALCULATE_BASE
+gcode:
+    { action_respond_info("starting screw rotation calculation...") }
+    M141 S0 # disable chamber heater (see https://github.com/qidi-community/Plus4-Wiki/tree/main/content/chamber-heater-issue)
+    M4031
+    G28
+    _SCREWS_TILT_CALCULATE_BASE
+    
+```
+#### Notes
+The above config is copied from [Enabling SCREWS_TILT_CALCULATE](https://github.com/qidi-community/Plus4-Wiki/tree/main/content/Screws-Tilt-Adjust), with updated screw coordinates.
 
 ### box?.cfg
 
