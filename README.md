@@ -102,9 +102,9 @@ screw1:0,20
 screw1_name: Front left
 screw2: 260,20
 screw2_name: Front right
-screw3: 260,260
+screw3: 260,280
 screw3_name: Back right
-screw4: 0,260
+screw4: 0,280
 screw4_name: Back left
 screw_thread: CW-M4
 
