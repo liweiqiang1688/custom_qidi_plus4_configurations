@@ -98,13 +98,13 @@ max_temp: 100
 
 ```
 [screws_tilt_adjust]
-screw1:20,20
+screw1:0,0
 screw1_name: Front left
-screw2: 280,20
+screw2: 280,2
 screw2_name: Front right
 screw3: 280,280
 screw3_name: Back right
-screw4: 20,280
+screw4: 0,280
 screw4_name: Back left
 screw_thread: CW-M4
 
