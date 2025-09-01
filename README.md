@@ -100,7 +100,7 @@ max_temp: 100
 [screws_tilt_adjust]
 screw1:0,0
 screw1_name: Front left
-screw2: 280,2
+screw2: 280,0
 screw2_name: Front right
 screw3: 280,280
 screw3_name: Back right
