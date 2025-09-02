@@ -119,7 +119,7 @@ gcode:
     
 ```
 #### Notes
-The above config is copied from [Enabling SCREWS_TILT_CALCULATE](https://github.com/qidi-community/Plus4-Wiki/tree/main/content/Screws-Tilt-Adjust), with updated screw coordinates.
+The above config is copied from [Enabling SCREWS_TILT_CALCULATE](https://github.com/qidi-community/Plus4-Wiki/tree/main/content/Screws-Tilt-Adjust).
 
 ### box?.cfg
 
