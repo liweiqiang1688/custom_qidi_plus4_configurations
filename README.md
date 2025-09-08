@@ -49,7 +49,7 @@ probe_count:9,9
 3. **max_power** for the chamber heater is set to 0.6, cause I am in China, the electricity is 220 voltage.
 4. **smart_effect.speed** in the section is changed down to **2.5** from 5, to reduce the probe speed, to get more precise z probes.
 5. **smart_effect.lift_speed=20** , **bed_mesh.speed=300**, and **bed_mesh.horizontal_move_z=5** for faster auto bed leveling.
-
+6. Do remember to re-run the viberation calibration after the above changes.
 ```
 [controller_fan board_fan]
 pin:U_1:PB2
