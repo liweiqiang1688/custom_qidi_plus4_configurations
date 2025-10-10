@@ -166,6 +166,9 @@ I changed the above codes to be :
 
 The change enables the chamber heater to work together with the bed heater to speed up the chamber warming process.
 
+## Pre-warm the bed for high temp filaments like ABS, etc.
+
+[Customized PRINT_START marco in gcode_marco.cfg](https://github.com/QIDITECH/QIDI_PLUS4/pull/100)
 
 ## Other Hardware Mods
 1. [Rear chamber cover](https://www.printables.com/model/1040774-qidi-plus-4-rear-chamber-cover)
