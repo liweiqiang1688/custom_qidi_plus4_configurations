@@ -170,9 +170,10 @@ The change enables the chamber heater to work together with the bed heater to sp
 ## Other Hardware Mods
 1. [Rear chamber cover](https://www.printables.com/model/1040774-qidi-plus-4-rear-chamber-cover)
 2. [Filament waste container](https://www.printables.com/model/1023520-qidi-plus-4-filament-waste-container)
-3. [Mainboard fan mod](https://www.printables.com/model/1146502-qidi-plus-4-hex-mainboard-cover-for-80mm-fan-with)
+3. [Mainboard fan mod](https://www.printables.com/model/1146502-qidi-plus-4-hex-mainboard-cover-for-80mm-fan-with) with [Fan dust filter] (https://makerworld.com/en/models/967259-80-92-120-140mm-fan-dust-filter#profileId-938179)
 4. [Filtration Mod](https://www.printables.com/model/1022271-qidi-plus-4-filtration-system)
 5. [Wire ramp](https://www.printables.com/model/1094939-qidi-plus-4-wire-ramp)
 6. [Top glass stand](https://www.printables.com/model/1102150-qidi-plus-4-top-glass-stand)
 7. [Hotend reinforcement, CNCed version](https://makerworld.com.cn/zh/models/1021954-plus4-re-duan-jia-qiang)
 8. [Bed Screw Adjustment Tool for QIDI Plus 4](https://www.printables.com/model/1280126-bed-screw-adjustment-tool-for-qidi-plus-4)
+9. [Nevermore Micro V6](https://github.com/nevermore3d/Nevermore_Micro/tree/master/V6) sharing 24V power with the LED lights on the mainboard.
