@@ -180,3 +180,4 @@ The change enables the chamber heater to work together with the bed heater to sp
 7. [Hotend reinforcement, CNCed version](https://makerworld.com.cn/zh/models/1021954-plus4-re-duan-jia-qiang)
 8. [Bed Screw Adjustment Tool for QIDI Plus 4](https://www.printables.com/model/1280126-bed-screw-adjustment-tool-for-qidi-plus-4)
 9. [Nevermore Micro V6](https://github.com/nevermore3d/Nevermore_Micro/tree/master/V6) sharing 24V power with the LED lights on the mainboard.
+10. Comfast USB WIFI6 AX600 Adapter
