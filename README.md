@@ -29,6 +29,12 @@ interpolate:False
 stealthchop_threshold: 0
 run_current: 1.15
 
+[stepper_z]
+microsteps: 32
+
+[stepper_z1]
+microsteps: 32
+
 [tmc2209 stepper_z]
 interpolate: False
 stealthchop_threshold: 0
