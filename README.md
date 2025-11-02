@@ -12,21 +12,32 @@
 [z_tilt]
 speed: 300
 
+[extruder]
+microsteps: 32
+
+[tmc2209 extruder]
+interpolate: False
+run_current: 0.8
+
 [tmc2240 stepper_y]
 interpolate:False
 stealthchop_threshold: 0
+run_current: 1.15
 
 [tmc2240 stepper_x]
 interpolate:False
 stealthchop_threshold: 0
+run_current: 1.15
 
 [tmc2209 stepper_z]
 interpolate: False
 stealthchop_threshold: 0
+run_current: 1.15
 
 [tmc2209 stepper_z1]
 interpolate: False
 stealthchop_threshold: 0
+run_current: 1.15
 
 [heater_generic chamber]
 max_power:0.7
